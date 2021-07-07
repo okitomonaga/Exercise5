@@ -33,3 +33,16 @@ func Test_CalcMinus2(t *testing.T) {
 		t.Error("Test_CalcMinus2")
 	}
 }
+
+func Test_CalcMult1(t *testing.T) {
+	result := calcMult(6, 7)
+	if result != 42 {
+		t.Error("Test_CalcMult1")
+	}
+}
+func Test_CalcMult2(t *testing.T) {
+	result := calcMult(9, 7)
+	if result != 63 {
+		t.Error("Test_CalcMult2")
+	}
+}

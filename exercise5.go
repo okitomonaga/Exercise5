@@ -11,6 +11,11 @@ func calcMinus(x int, y int) int {
 	return x - y
 }
 
+func calcMult(x int, y int) int {
+	return x * y
+
+}
+
 func main() {
 	var a string
 	var b string

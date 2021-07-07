@@ -27,6 +27,7 @@ func main() {
 		result = calcPlus(ai, bi)
 	case "-":
 		fmt.Println("-が入力されました") // 2つめが出力される
+		result = calcMinus(ai, bi)
 	case "*":
 		fmt.Println("*が入力されました") // 2つめが出力される
 	case "/":

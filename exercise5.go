@@ -3,6 +3,9 @@ package main
 import "fmt"
 import "strconv"
 
+func calcPlus(x int, y int) int {
+	return x + y
+}
 func main() {
 	var a string
 	var b string

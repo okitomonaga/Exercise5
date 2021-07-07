@@ -7,6 +7,10 @@ func calcPlus(x int, y int) int {
 	return x + y
 }
 
+func calcMinus(x int, y int) int {
+	return x - y
+}
+
 func main() {
 	var a string
 	var b string

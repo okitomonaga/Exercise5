@@ -6,10 +6,12 @@ import "strconv"
 func calcPlus(x int, y int) int {
 	return x + y
 }
+
 func main() {
 	var a string
 	var b string
 	var c string
+	var result int
 
 	fmt.Scan(&a, &b, &c)
 	ai, _ := strconv.Atoi(a)
@@ -18,6 +20,7 @@ func main() {
 	switch c {
 	case "+":
 		fmt.Println("+が入力されました")
+		result = calcPlus(ai, bi)
 	case "-":
 		fmt.Println("-が入力されました") // 2つめが出力される
 	case "*":
@@ -28,7 +31,8 @@ func main() {
 		fmt.Println("エラー")
 	}
 
-	fmt.Println(ai)
-	fmt.Println(bi)
-	fmt.Println(c)
+	// 	fmt.Println(ai)
+	// 	fmt.Println(bi)
+	// 	fmt.Println(c)
+	fmt.Println(result)
 }
